@@ -63,6 +63,12 @@ I'm always trying out new ideas and building stuff from scratch.
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=SheharaHeshan&custom_title=Contribution%20Activity&bg_color=09090B&color=A1A1AA&title_color=FAFAFA&line=FAFAFA&point=22C55E&area=true&area_color=FAFAFA&hide_border=true&radius=12" alt="Contribution activity graph" width="100%"/>
 </p>
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-green.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./profile-3d-contrib/profile-green-animate.svg">
+  <img src="./profile-3d-contrib/profile-night-green.svg" alt="3D contribution graph" width="100%">
+</picture>
+
 <p align="center">
   <sub>✦ Building in public — one commit at a time.</sub>
 </p>
