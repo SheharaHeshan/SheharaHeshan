@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-label="Shehara Heshan — Software Engineer and Open Source Contributor">
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#E4E4E7" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="fade" cx="50%" cy="45%" r="60%">
+      <stop offset="0%" stop-color="#fff" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+    <mask id="m"><rect width="1200" height="340" fill="url(#fade)"/></mask>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#09090B" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#09090B" stop-opacity=".4"/>
+      <stop offset="100%" stop-color="#09090B" stop-opacity="0"/>
+    </linearGradient>
+    <style>
+      .sans{font-family:Geist,Inter,ui-sans-serif,-apple-system,"Segoe UI",Helvetica,Arial,sans-serif}
+      .mono{font-family:"Geist Mono","JetBrains Mono",ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+      .dot{animation:pulse 2s ease-in-out infinite;transform-origin:center;transform-box:fill-box}
+      .ring{animation:ring 2s ease-out infinite;transform-origin:center;transform-box:fill-box}
+      .up{animation:up .9s cubic-bezier(.2,.8,.2,1) both}
+      .d1{animation-delay:.1s}.d2{animation-delay:.25s}.d3{animation-delay:.4s}.d4{animation-delay:.55s}
+      .line{animation:sweep 6s linear infinite}
+      @keyframes pulse{0%,100%{opacity:1}50%{opacity:.55}}
+      @keyframes ring{0%{opacity:.6;transform:scale(1)}100%{opacity:0;transform:scale(2.6)}}
+      @keyframes up{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+      @keyframes sweep{from{transform:translateX(-600px)}to{transform:translateX(1200px)}}
+    </style>
+  </defs>
+
+  <rect width="1200" height="340" rx="16" fill="#FFFFFF"/>
+  <rect width="1200" height="340" rx="16" fill="url(#grid)" mask="url(#m)"/>
+  <rect x="0.5" y="0.5" width="1199" height="339" rx="15.5" fill="none" stroke="#E4E4E7"/>
+  <rect class="line" x="0" y="0" width="600" height="1" fill="url(#glow)"/>
+
+  <g class="up d1">
+    <rect x="474" y="64" width="252" height="32" rx="16" fill="#F4F4F5" stroke="#E4E4E7"/>
+    <circle class="ring" cx="496" cy="80" r="4" fill="#16A34A"/>
+    <circle class="dot" cx="496" cy="80" r="4" fill="#16A34A"/>
+    <text x="510" y="85" class="sans" font-size="13" font-weight="500" fill="#71717A">Open to open-source work</text>
+  </g>
+
+  <text x="600" y="168" text-anchor="middle" class="sans up d2" font-size="64" font-weight="700" letter-spacing="-2" fill="#09090B">Shehara Heshan</text>
+  <text x="600" y="210" text-anchor="middle" class="sans up d3" font-size="20" fill="#71717A">Software Engineer · Open Source Contributor · Ethical Hacker</text>
+
+  <g class="up d4">
+    <rect x="452" y="244" width="140" height="36" rx="8" fill="#09090B"/>
+    <text x="522" y="267" text-anchor="middle" class="mono" font-size="13" font-weight="600" fill="#FAFAFA">shehara.me</text>
+    <rect x="604" y="244" width="144" height="36" rx="8" fill="#FFFFFF" stroke="#E4E4E7"/>
+    <text x="676" y="267" text-anchor="middle" class="mono" font-size="13" fill="#09090B">~/sri-lanka</text>
+  </g>
+</svg>
